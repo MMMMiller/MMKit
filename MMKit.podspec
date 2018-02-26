@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
 
   s.libraries = 'z', 'sqlite3'
   s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration'
-
+  s.dependency 'Masonry'
+  s.dependency 'YYCategories'
 end
 #pod repo push MMKit MMKit.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git'
