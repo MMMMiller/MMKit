@@ -15,6 +15,13 @@
 		E04DBE222043EFEE000CB731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04DBE202043EFEE000CB731 /* LaunchScreen.storyboard */; };
 		E04DBE252043EFEE000CB731 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE242043EFEE000CB731 /* main.m */; };
 		E04DBE342043F295000CB731 /* UIButton+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE332043F295000CB731 /* UIButton+MMAdd.m */; };
+		E04DBE3720440118000CB731 /* UIColor+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE3620440118000CB731 /* UIColor+MMAdd.m */; };
+		E04DBE3A2044028D000CB731 /* NSString+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE392044028D000CB731 /* NSString+MMAdd.m */; };
+		E04DBE3D204402DF000CB731 /* NSDate+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE3C204402DF000CB731 /* NSDate+MMAdd.m */; };
+		E04DBE4020440A34000CB731 /* NSAttributedString+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE3F20440A34000CB731 /* NSAttributedString+MMAdd.m */; };
+		E04DBE45204684A8000CB731 /* UIImageView+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE44204684A8000CB731 /* UIImageView+MMAdd.m */; };
+		E04DBE482046851F000CB731 /* UILabel+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE472046851F000CB731 /* UILabel+MMAdd.m */; };
+		E04DBE4B20468768000CB731 /* UIView+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE4A20468768000CB731 /* UIView+MMAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,20 @@
 		E04DBE2C2043F223000CB731 /* MMKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMKit.h; sourceTree = "<group>"; };
 		E04DBE322043F295000CB731 /* UIButton+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+MMAdd.h"; sourceTree = "<group>"; };
 		E04DBE332043F295000CB731 /* UIButton+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MMAdd.m"; sourceTree = "<group>"; };
+		E04DBE3520440118000CB731 /* UIColor+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MMAdd.h"; sourceTree = "<group>"; };
+		E04DBE3620440118000CB731 /* UIColor+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MMAdd.m"; sourceTree = "<group>"; };
+		E04DBE382044028D000CB731 /* NSString+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MMAdd.h"; sourceTree = "<group>"; };
+		E04DBE392044028D000CB731 /* NSString+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MMAdd.m"; sourceTree = "<group>"; };
+		E04DBE3B204402DF000CB731 /* NSDate+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+MMAdd.h"; sourceTree = "<group>"; };
+		E04DBE3C204402DF000CB731 /* NSDate+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MMAdd.m"; sourceTree = "<group>"; };
+		E04DBE3E20440A34000CB731 /* NSAttributedString+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MMAdd.h"; sourceTree = "<group>"; };
+		E04DBE3F20440A34000CB731 /* NSAttributedString+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MMAdd.m"; sourceTree = "<group>"; };
+		E04DBE43204684A8000CB731 /* UIImageView+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MMAdd.h"; sourceTree = "<group>"; };
+		E04DBE44204684A8000CB731 /* UIImageView+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MMAdd.m"; sourceTree = "<group>"; };
+		E04DBE462046851F000CB731 /* UILabel+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+MMAdd.h"; sourceTree = "<group>"; };
+		E04DBE472046851F000CB731 /* UILabel+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MMAdd.m"; sourceTree = "<group>"; };
+		E04DBE4920468768000CB731 /* UIView+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MMAdd.h"; sourceTree = "<group>"; };
+		E04DBE4A20468768000CB731 /* UIView+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MMAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +145,14 @@
 			children = (
 				E04DBE322043F295000CB731 /* UIButton+MMAdd.h */,
 				E04DBE332043F295000CB731 /* UIButton+MMAdd.m */,
+				E04DBE3520440118000CB731 /* UIColor+MMAdd.h */,
+				E04DBE3620440118000CB731 /* UIColor+MMAdd.m */,
+				E04DBE43204684A8000CB731 /* UIImageView+MMAdd.h */,
+				E04DBE44204684A8000CB731 /* UIImageView+MMAdd.m */,
+				E04DBE462046851F000CB731 /* UILabel+MMAdd.h */,
+				E04DBE472046851F000CB731 /* UILabel+MMAdd.m */,
+				E04DBE4920468768000CB731 /* UIView+MMAdd.h */,
+				E04DBE4A20468768000CB731 /* UIView+MMAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -131,6 +160,12 @@
 		E04DBE312043F276000CB731 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				E04DBE382044028D000CB731 /* NSString+MMAdd.h */,
+				E04DBE392044028D000CB731 /* NSString+MMAdd.m */,
+				E04DBE3E20440A34000CB731 /* NSAttributedString+MMAdd.h */,
+				E04DBE3F20440A34000CB731 /* NSAttributedString+MMAdd.m */,
+				E04DBE3B204402DF000CB731 /* NSDate+MMAdd.h */,
+				E04DBE3C204402DF000CB731 /* NSDate+MMAdd.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -260,10 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04DBE482046851F000CB731 /* UILabel+MMAdd.m in Sources */,
+				E04DBE3D204402DF000CB731 /* NSDate+MMAdd.m in Sources */,
 				E04DBE1A2043EFEE000CB731 /* ViewController.m in Sources */,
 				E04DBE252043EFEE000CB731 /* main.m in Sources */,
+				E04DBE4B20468768000CB731 /* UIView+MMAdd.m in Sources */,
+				E04DBE4020440A34000CB731 /* NSAttributedString+MMAdd.m in Sources */,
 				E04DBE172043EFEE000CB731 /* AppDelegate.m in Sources */,
+				E04DBE3720440118000CB731 /* UIColor+MMAdd.m in Sources */,
 				E04DBE342043F295000CB731 /* UIButton+MMAdd.m in Sources */,
+				E04DBE45204684A8000CB731 /* UIImageView+MMAdd.m in Sources */,
+				E04DBE3A2044028D000CB731 /* NSString+MMAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
