@@ -18,10 +18,11 @@
 		E04DBE3720440118000CB731 /* UIColor+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE3620440118000CB731 /* UIColor+MMAdd.m */; };
 		E04DBE3A2044028D000CB731 /* NSString+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE392044028D000CB731 /* NSString+MMAdd.m */; };
 		E04DBE3D204402DF000CB731 /* NSDate+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE3C204402DF000CB731 /* NSDate+MMAdd.m */; };
-		E04DBE4020440A34000CB731 /* NSAttributedString+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE3F20440A34000CB731 /* NSAttributedString+MMAdd.m */; };
 		E04DBE45204684A8000CB731 /* UIImageView+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE44204684A8000CB731 /* UIImageView+MMAdd.m */; };
 		E04DBE482046851F000CB731 /* UILabel+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE472046851F000CB731 /* UILabel+MMAdd.m */; };
 		E04DBE4B20468768000CB731 /* UIView+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE4A20468768000CB731 /* UIView+MMAdd.m */; };
+		E04DBE522046A053000CB731 /* MMNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E04DBE512046A053000CB731 /* MMNetworking.m */; };
+		E0DD68F52047A7570075E85C /* UIApplication+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD68F42047A7570075E85C /* UIApplication+MMAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,14 +48,16 @@
 		E04DBE392044028D000CB731 /* NSString+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MMAdd.m"; sourceTree = "<group>"; };
 		E04DBE3B204402DF000CB731 /* NSDate+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+MMAdd.h"; sourceTree = "<group>"; };
 		E04DBE3C204402DF000CB731 /* NSDate+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MMAdd.m"; sourceTree = "<group>"; };
-		E04DBE3E20440A34000CB731 /* NSAttributedString+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MMAdd.h"; sourceTree = "<group>"; };
-		E04DBE3F20440A34000CB731 /* NSAttributedString+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MMAdd.m"; sourceTree = "<group>"; };
 		E04DBE43204684A8000CB731 /* UIImageView+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MMAdd.h"; sourceTree = "<group>"; };
 		E04DBE44204684A8000CB731 /* UIImageView+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MMAdd.m"; sourceTree = "<group>"; };
 		E04DBE462046851F000CB731 /* UILabel+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+MMAdd.h"; sourceTree = "<group>"; };
 		E04DBE472046851F000CB731 /* UILabel+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MMAdd.m"; sourceTree = "<group>"; };
 		E04DBE4920468768000CB731 /* UIView+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MMAdd.h"; sourceTree = "<group>"; };
 		E04DBE4A20468768000CB731 /* UIView+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MMAdd.m"; sourceTree = "<group>"; };
+		E04DBE502046A053000CB731 /* MMNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMNetworking.h; sourceTree = "<group>"; };
+		E04DBE512046A053000CB731 /* MMNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMNetworking.m; sourceTree = "<group>"; };
+		E0DD68F32047A7570075E85C /* UIApplication+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+MMAdd.h"; sourceTree = "<group>"; };
+		E0DD68F42047A7570075E85C /* UIApplication+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MMAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				E04DBE2C2043F223000CB731 /* MMKit.h */,
+				E04DBE4F2046A039000CB731 /* Network */,
 				E04DBE2F2043F276000CB731 /* Category */,
 			);
 			name = MMKit;
@@ -153,6 +157,8 @@
 				E04DBE472046851F000CB731 /* UILabel+MMAdd.m */,
 				E04DBE4920468768000CB731 /* UIView+MMAdd.h */,
 				E04DBE4A20468768000CB731 /* UIView+MMAdd.m */,
+				E0DD68F32047A7570075E85C /* UIApplication+MMAdd.h */,
+				E0DD68F42047A7570075E85C /* UIApplication+MMAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -162,12 +168,19 @@
 			children = (
 				E04DBE382044028D000CB731 /* NSString+MMAdd.h */,
 				E04DBE392044028D000CB731 /* NSString+MMAdd.m */,
-				E04DBE3E20440A34000CB731 /* NSAttributedString+MMAdd.h */,
-				E04DBE3F20440A34000CB731 /* NSAttributedString+MMAdd.m */,
 				E04DBE3B204402DF000CB731 /* NSDate+MMAdd.h */,
 				E04DBE3C204402DF000CB731 /* NSDate+MMAdd.m */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		E04DBE4F2046A039000CB731 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E04DBE502046A053000CB731 /* MMNetworking.h */,
+				E04DBE512046A053000CB731 /* MMNetworking.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,10 +312,11 @@
 				E04DBE3D204402DF000CB731 /* NSDate+MMAdd.m in Sources */,
 				E04DBE1A2043EFEE000CB731 /* ViewController.m in Sources */,
 				E04DBE252043EFEE000CB731 /* main.m in Sources */,
+				E04DBE522046A053000CB731 /* MMNetworking.m in Sources */,
 				E04DBE4B20468768000CB731 /* UIView+MMAdd.m in Sources */,
-				E04DBE4020440A34000CB731 /* NSAttributedString+MMAdd.m in Sources */,
 				E04DBE172043EFEE000CB731 /* AppDelegate.m in Sources */,
 				E04DBE3720440118000CB731 /* UIColor+MMAdd.m in Sources */,
+				E0DD68F52047A7570075E85C /* UIApplication+MMAdd.m in Sources */,
 				E04DBE342043F295000CB731 /* UIButton+MMAdd.m in Sources */,
 				E04DBE45204684A8000CB731 /* UIImageView+MMAdd.m in Sources */,
 				E04DBE3A2044028D000CB731 /* NSString+MMAdd.m in Sources */,

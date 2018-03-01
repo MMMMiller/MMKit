@@ -25,4 +25,12 @@
     return [[UIColor colorWithHex:hex] colorWithAlphaComponent:alpha];
 }
 
++ (UIColor *)divideLineColor {
+    return [UIColor colorWithHex:0xb2b2b2];
+}
+
++ (UIColor *)lightGrayBackgroundColor {
+    return [UIColor colorWithHex:0xf5f5f5];
+}
+
 @end

@@ -14,4 +14,8 @@
 
 + (UIColor *)colorWithHex:(NSUInteger)hex alpha:(CGFloat)alpha;
 
++ (UIColor *)divideLineColor;
+
++ (UIColor *)lightGrayBackgroundColor;
+
 @end

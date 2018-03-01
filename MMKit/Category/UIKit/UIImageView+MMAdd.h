@@ -11,9 +11,17 @@
 
 @interface UIImageView (MMAdd)
 
-+ (UIImageView *)imageViewWithImageName:(NSString *)iconName
++ (UIImageView *)imageViewWithSuperView:(UIView *)superView
+                             constraint:(void(^)(MASConstraintMaker *make))constraint
+                          configHandler:(void (^)(UIImageView *iconView))configHandler;
+
++ (UIImageView *)imageViewWithImageName:(NSString *)imageName
                               superView:(UIView *)superView
                              constraint:(void(^)(MASConstraintMaker *make))constraint
                           configHandler:(void (^)(UIImageView *iconView))configHandler;
 
++ (UIImageView *)imageViewWithImageUrl:(NSString *)imageUrl
+                             superView:(UIView *)superView
+                            constraint:(void(^)(MASConstraintMaker *make))constraint
+                         configHandler:(void (^)(UIImageView *iconView))configHandler;
 @end
